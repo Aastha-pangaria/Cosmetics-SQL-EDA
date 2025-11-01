@@ -36,20 +36,14 @@ The dataset was obtained from [https://catalog.data.gov/dataset/chemicals-in-cos
 ├── LICENSE                     # MIT license
 ├── .gitignore                  # Ignore venv, cache, notebooks checkpoints, etc.
 │ 
-├── sql_scripts/                # All SQL scripts organized
-│   ├── 1_data_cleaning.sql
-│   ├── 2_create_new_schema.sql
-│   └── 3_data_analysis.sql
+├── 1_data_cleaning.sql                # All SQL scripts organized
+├── 2_create_new_schema.sql
+├── 3_data_analysis.sql
 │ 
-├── er_diagram/                 # ER diagrams and schema design
-│   └── cosmetics_clean_ER.png
+├── cosmetics_clean_ER.png                # ER diagrams and schema design
+│  
 │ 
-├── docs/                       # Documentation and analysis notes
-│   └── analysis_notes.md
-│ 
-└── data/                       # Sample CSV extracts (hidden)
-    ├── cosmetics_raw.csv       # Original raw data
-    └── cosmetics_clean.csv     # Cleaned but not normalized data
+├── analysis_notes.md                      # Documentation and analysis notes
 
 ```
 
